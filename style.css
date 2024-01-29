@@ -1,0 +1,48 @@
+
+/* Содержимое файла style.css */
+QWidget {
+    background-color: #333333;
+    color: white;
+}
+
+QPushButton {
+    background-color: #4a8bc2; /* Голубой цвет для кнопок */
+    border: 2px solid #367ab3; /* Немного темнее голубой для границы */
+    padding: 6px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #5b9cd6; /* Светлее голубой при наведении */
+    border: 2px solid #4a8bc2;
+}
+
+QPushButton:pressed {
+    background-color: #367ab3; /* Темно-голубой при нажатии */
+    border: 2px solid #2a6390;
+}
+
+QLineEdit, QComboBox, QProgressBar {
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid #445566;
+    font-size: 14px;
+}
+
+QProgressBar {
+    border: 2px solid #445566;
+    border-radius: 6px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #4a8bc2; /* Голубой цвет для заполнения прогресс-бара */
+    border-radius: 6px;
+}
+
+QLabel {
+    font-size: 14px;
+}
